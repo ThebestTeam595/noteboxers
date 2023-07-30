@@ -276,7 +276,7 @@ body.miniPlayer #lock-pause .bt .bck{
     right:-16px;
     width:36px;
     height:36px;
-    border-radius:50%;
+    border-radius:0%;
     background-color:#5f5f5f
 }
 .appBrowser .hoverLocked .ic-locked{
@@ -707,7 +707,7 @@ body.miniPlayer #lock-pause .bt .bck{
     right:-10px;
     width:32px;
     height:32px;
-    border-radius:50%;
+    border-radius:0%;
     opacity:0;
     -webkit-transform:scale(.5);
     transform:scale(.5)
@@ -930,13 +930,13 @@ body.miniPlayer #lock-pause .bt .bck{
     width:200px;
     padding:4px;
     border:1px solid var(--col3);
-    border-radius:10px
+    border-radius:0px
 }
 .progress-box .progress-bar{
     position:relative;
     height:100%;
     width:0;
-    border-radius:8px;
+    border-radius:0px;
     background-color:var(--col3)
 }
 #home #home-dedicated{
@@ -1082,7 +1082,7 @@ body.miniPlayer #lock-pause .bt .bck{
     transform:rotate(0deg)
 }
 #home-bt-album .bck.focused{
-    border-radius:50%
+    border-radius:0%
 }
 #home-bt-album.animate{
     -webkit-animation:n .7s cubic-bezier(.175,.885,.32,1.275) 0s forwards;
@@ -1441,7 +1441,7 @@ body.miniPlayer #lock-pause .bt .bck{
     animation:A .5s linear 0s forwards
 }
 #mixlist #poplist .boxline .line:first-child{
-    border-radius:0 6px 0 0
+    border-radius:0 0px 0 0
 }
 #mixlist #poplist .box-info{
     height:116px;
@@ -1935,7 +1935,7 @@ body.miniPlayer #lock-pause .bt .bck{
     margin-top:-7px;
     margin-right:-5px;
     margin-left:30px;
-    border-radius:50%;
+    border-radius:0%;
     pointer-events:none;
     -webkit-transform:translateZ(0);
     transform:translateZ(0)
@@ -2018,7 +2018,7 @@ body.miniPlayer #lock-pause .bt .bck{
     width:60px;
     height:60px;
     margin:-652px 0 0 900px;
-    border-radius:50%;
+    border-radius:0%;
     background-color:#fafafa
 }
 .fluid #lock-pause #bt-resume{
@@ -2298,7 +2298,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     height:60px;
     padding:0 24px;
     margin-left:-10px;
-    border-radius:6px 6px 0 0;
+    border-radius:0px 0px 0 0;
     font-family:ralewaymedium,Sans-Serif;
     font-size:17px;
     text-align:center;
@@ -2394,7 +2394,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     right:-5px;
     width:20px;
     height:20px;
-    border-radius:50%;
+    border-radius:0%;
     background-color:#d20a0a;
     transition:-webkit-transform .4s ease-in-out;
     transition:transform .4s ease-in-out;
@@ -2418,7 +2418,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
 .bt .bck{
     position:relative;
     white-space:nowrap;
-    border-radius:50%;
+    border-radius:0%;
     height:inherit;
     width:inherit;
     line-height:59px;
@@ -2460,7 +2460,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     justify-content:center;
     -ms-flex-wrap:nowrap;
     flex-wrap:nowrap;
-    border-radius:30px;
+    border-radius:0px;
     padding-right:30px
 }
 .bt.bt-long .bck .icn-svg{
@@ -2518,7 +2518,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     letter-spacing:1px;
     color:#dcdcdc;
     white-space:nowrap;
-    border-radius:16px;
+    border-radius:0px;
     background-color:#8c8c8c;
     border:1px solid transparent;
     cursor:pointer
@@ -2553,7 +2553,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     width:38px;
     height:24px;
     background-color:#fafafa;
-    border-radius:13px;
+    border-radius:0px;
     margin-left:0;
     transition:margin .2s ease-in-out
 }
@@ -2576,7 +2576,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     height:32px;
     width:265px;
     padding:0 4px;
-    border-radius:16px;
+    border-radius:0px;
     font-family:ralewaymedium,Sans-Serif;
     font-size:14px;
     text-transform:uppercase;
@@ -2614,7 +2614,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     margin-top:4px;
     margin-left:0;
     background-color:#fafafa;
-    border-radius:12px;
+    border-radius:0px;
     transition:all .2s ease-in-out
 }
 .bt-onofftext .txtbox .label:first-child{
@@ -2911,7 +2911,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     height:76px;
     background-color:#bebebe;
     transition:opacity .3s ease-in-out,background-color .3s ease-in-out;
-    border-radius:50%;
+    border-radius:0%;
     opacity:.3;
     -webkit-transform:translateZ(0);
     transform:translateZ(0)
@@ -2928,7 +2928,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     margin-left:8px;
     width:60px;
     height:60px;
-    border-radius:50%;
+    border-radius:0%;
     background-color:#fafafa;
     transition:background-color .3s ease-in-out
 }
@@ -3105,7 +3105,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
 #box-top .bt-bonus canvas{
     position:absolute;
     background-color:#e6e6e6;
-    border-radius:50%;
+    border-radius:0%;
     -webkit-transform:scale(.5);
     transform:scale(.5);
     transition:-webkit-transform .4s cubic-bezier(.6,-.28,.735,.045);
@@ -3131,7 +3131,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     height:86px;
     width:86px;
     border:3px dashed #dcdcdc;
-    border-radius:50%;
+    border-radius:0%;
     opacity:0
 }
 #box-top .bt-bonus.unlock .circle.show{
@@ -3233,7 +3233,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck{
     left:8px;
     width:70px;
     height:70px;
-    border-radius:50%;
+    border-radius:0%;
     background-color:#bebebe;
     transition:background-color .3s ease-in-out;
     -webkit-transform:translateZ(0);
@@ -3550,7 +3550,7 @@ video::-webkit-media-controls{
     width:120px;
     height:40px;
     background-color:#5a5a5a;
-    border-radius:10px 10px 0 0;
+    border-radius:0px 0px 0 0;
     opacity:0;
     transition:opacity .2s
 }
@@ -3725,7 +3725,7 @@ video::-webkit-media-controls{
     height:4px;
     width:70px;
     margin-left:27px;
-    border-radius:2px;
+    border-radius:0px;
     overflow:hidden;
     background-color:#ddd;
     -webkit-transform:scaleX(0);
@@ -3858,7 +3858,7 @@ video::-webkit-media-controls{
     position:absolute;
     width:68px;
     height:68px;
-    border-radius:14px;
+    border-radius:0px;
     -webkit-transform:translateZ(0);
     transform:translateZ(0);
     z-index:auto;
@@ -3873,7 +3873,7 @@ video::-webkit-media-controls{
     height:68px;
     background-size:1360px 136px;
     background-repeat:no-repeat;
-    border-radius:14px;
+    border-radius:0px;
     transition:opacity .4s ease-out;
     opacity:1
 }
@@ -4096,7 +4096,7 @@ video::-webkit-media-controls{
 }
 .box-popup .box .pop{
     min-width:350px;
-    border-radius:6px;
+    border-radius:0px;
     background-color:#fafafa
 }
 .darkmode .box-popup .box .pop{
@@ -4113,7 +4113,7 @@ video::-webkit-media-controls{
     margin-top:-22px;
     width:44px;
     height:44px;
-    border-radius:50%;
+    border-radius:0%;
     background-color:#000
 }
 .darkmode .box-popup.action-back .box .pop span.icon,.darkmode .box-popup.action .box .pop span.icon{
@@ -4421,7 +4421,7 @@ video::-webkit-media-controls{
     display:none;
     width:inherit;
     height:480px;
-    border-radius:0 6px 6px 6px
+    border-radius:0 0px 0px 0px
 }
 .box-popup.with-tab .pop.active{
     display:block
@@ -4649,7 +4649,7 @@ video::-webkit-media-controls{
     width:22px;
     height:22px;
     background-color:#ccc;
-    border-radius:50%;
+    border-radius:0%;
     margin-left:15px;
     margin-right:15px
 }
@@ -4741,7 +4741,7 @@ video::-webkit-media-controls{
     margin:0 3px;
     width:6px;
     height:6px;
-    border-radius:3px;
+    border-radius:0px;
     background-color:#ccc
 }
 .box-popup#pop-info .slideshow .nav-box .pt.active{
@@ -4769,7 +4769,7 @@ video::-webkit-media-controls{
     right:-20px
 }
 .box-popup#pop-info .slideshow .nav-box .bt.focused .bck{
-    border-radius:50%
+    border-radius:0%
 }
 .box-popup .pop form{
     width:100%;
@@ -4830,7 +4830,7 @@ video::-webkit-media-controls{
     font-size:16px;
     box-shadow:none;
     border:none;
-    border-radius:5px;
+    border-radius:0px;
     background-color:#dcdcdc
 }
 input[type=email].focused::-webkit-input-placeholder,input[type=text].focused::-webkit-input-placeholder{
@@ -4956,11 +4956,11 @@ input[type=email].invalid,input[type=text].invalid{
 #pop-popup[data-name=save-form] .bt-onofftext{
     height:40px;
     width:100%;
-    border-radius:5px
+    border-radius:0px
 }
 #pop-popup[data-name=save-form] .bt-onofftext .slider{
     height:32px;
-    border-radius:5px
+    border-radius:0px
 }
 .safemode #pop-popup[data-name=save-form] .formline.ic-private,.safemode #pop-popup[data-name=save-form] .formline.ic-private .bt-onofftext{
     display:none
